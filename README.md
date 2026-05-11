@@ -100,7 +100,7 @@ perl compare_GO_annotation.pl \
 perl compare_GO_annotation.pl \
   -p test_predicted \
   -r test_reference \
-  -g $m/PAINT/PAINT_paper_2022/go_all_parents | more
+  -g goparents | more
 ```
 
 ---
