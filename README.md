@@ -100,7 +100,8 @@ perl compare_GO_annotation.pl \
 perl compare_GO_annotation.pl \
   -p test_predicted \
   -r test_reference \
-  -g goparents | more
+  -g goparents \
+  > test_output
 ```
 
 ---
